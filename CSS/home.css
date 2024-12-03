@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: #640D5F
+}
+
+
+.container .navbar-brand {
+    color: #FFB200;
+}
+
+#logoutBtn {
+--bs-btn-color: #FFB200;
+--bs-btn-border-color: #FFB200;
+--bs-btn-hover-color: #000;
+--bs-btn-hover-bg: #FFB200;
+--bs-btn-hover-border-color: #FFB200;
+--bs-btn-focus-shadow-rgb: 13,202,240;
+--bs-btn-active-color: #000;
+--bs-btn-active-bg: #FFB200;
+--bs-btn-active-border-color: #FFB200;
+--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+--bs-btn-disabled-color: #FFB200;
+--bs-btn-disabled-bg: transparent;
+--bs-btn-disabled-border-color: #FFB200;
+--bs-gradient: none;
+}
+
+.username-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#username {
+    color: #fff
+}
+
+.shadows{
+    box-shadow: -5px 2px 54px -9px hsl(23, 100%, 50%);
+    background-color: #EB5B00;
+
+}

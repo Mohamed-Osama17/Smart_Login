@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <!--^====================Poppins-Font====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--^====================Font-Awesome====================-->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!--^=====================BootsTrap====================-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!--^=====================Main-style-sheet====================-->
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="Form-Container">
+            <div class="form-box login">
+                <div class="form">
+                    <h1 class="login-title">Login</h1>
+                    <div class="input-box">
+                        <input id="loginEmail" class="formControl username-input" type="text" placeholder="Email"
+                            required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input id="loginPassowrd" class="formControl password-input" type="password" placeholder="password"
+                            required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <p id="incorrect"></p>
+                    <div class="forgot-link">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button id="loginBtn" class="bttn w-100">Login</button>
+                    <p>or login with social platforms</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-google fa-fw"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f fa-fw"></i></a>
+                        <a href="#"><i class="fa-brands fa-github fa-fw"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in fa-fw"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-x-twitter"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="form-box register">
+                <dvi class="form">
+                    <h1 class="registration-title">Registration</h1>
+                    <div class="input-box">
+                        <input id="nameReg" class="formControl reg-name-input" type="text" placeholder="Name"
+                            required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input id="emailReg" class="formControl reg-email-input" type="email" placeholder="Email" required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="input-box">
+                        <input id="PasswordReg" class="formControl reg-password-input" type="password"
+                            placeholder="password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <p id="required"></p>
+                    <button id="registerBtn" class="bttn w-100">Register</button>
+                    <p>or register with social platforms</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-google fa-fw"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f fa-fw"></i></a>
+                        <a href="#"><i class="fa-brands fa-github fa-fw"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in fa-fw"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-x-twitter"></i></a> -->
+                    </div>
+                </dvi>
+            </div>
+            <div class="toggle-box">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hello Welcome!</h1>
+                    <p>Don't have an account?</p>
+                    <button class="bttn register-bttn">Register</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Already have an account?</p>
+                    <button class="bttn login-bttn">Login</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--^=====================Main-JS====================-->
+   <script src="JS/index.js"></script>
+</body>
+
+</html>
+
+
